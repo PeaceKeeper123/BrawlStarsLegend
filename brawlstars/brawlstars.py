@@ -11,7 +11,7 @@ from redbot.core import commands, checks
 import brawlstats # pip install brawlstats
 
 
-credits = "Bot by Legend Gaming. Original Code by GR8" # :( 
+credits = "Bot by Legend Gaming | Original Code by GR8" # :( 
 
 
 class BrawlStars(commands.Cog):
