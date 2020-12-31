@@ -17,6 +17,7 @@ class brawlstars:
         self.auth = self.bot.get_cog('crtools').auth
         self.tags = self.bot.get_cog('crtools').tags
         self.clubs = self.bot.get_cog('crtools').clubs
+        token = await self.bot.get_shared_api_tokens("brawlstars") # todo check here
         self.brawl = brawlstats.Client(self.auth.getBSToken(), is_async=False)
 
     def emoji(self, name):
